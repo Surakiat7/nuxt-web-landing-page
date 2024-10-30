@@ -1,9 +1,46 @@
-node_modules
+# Logs
 *.log*
+
+# Nuxt and build output
 .nuxt
 .nitro
 .cache
 .output
-.env
 dist
+
+# Environment variables
+.env
+.env.*.local
+
+# Dependency directories
+node_modules/
+
+# OS and editor files
 .DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Optional npm cache directory
+.npm
+
+# Local runtime files
+*.pid
+*.seed
+*.pid.lock
+
+# Test and coverage reports
+coverage/
+.nyc_output/
+
+# Other generated files
+*.gz
