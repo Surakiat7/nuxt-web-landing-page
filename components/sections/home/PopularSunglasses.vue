@@ -1,0 +1,63 @@
+<template>
+    <section class="pt-16 relative">
+        <div aria-hidden="true" class="absolute inset-y-0 w-44 left-0 hidden dark:flex">
+            <div
+                class="h-full md:h-1/2 lg:h-full w-full bg-gradient-to-tr opacity-40 dark:blur-2xl dark:from-secondary dark:opacity-20">
+            </div>
+        </div>
+        <div class="absolute top-14 inset-x-0 h-64 flex items-start">
+            <div
+                class="h-24 w-2/3 bg-gradient-to-br from-primary opacity-20 blur-2xl dark:from-secondary dark:invisible dark:opacity-40">
+            </div>
+            <div
+                class="h-20 w-3/5 bg-gradient-to-r from-primary opacity-40 blur-2xl dark:from-secondary dark:opacity-40">
+            </div>
+        </div>
+        <AtomsContainer class-name="relative">
+            <div class="flex justify-between pb-6 relative">
+                <div class="">
+                    <AtomsTitle texte="Popular sunglasses" />
+                </div>
+                <div class="flex items-center min-w-max gap-5">
+                    <AtomsLinkBtn href="#" variant="primary">
+                        See all
+                    </AtomsLinkBtn>
+                </div>
+            </div>
+            <div
+                class="grid grid-cols-2 items-stretch sm:grid-cols-3 lg:grid-cols-4 gap-x-3 gap-y-10 sm:gap-x-5 sm:gap-y-8">
+
+                <CardsEyeglasses title="OWNDAYS (SUN-2S C3)" href="#" duration="THB2,990.00" cover-image="/images/eyeglasses/eyeglasses-3.webp"
+                    category="" created-at="" description="Lorem ipsum dolor sit amet,  voluptates porro" />
+
+                <CardsEyeglasses title="OWNDAYS (SUN-2S C3)" href="#" duration="THB2,990.00" cover-image="/images/eyeglasses/eyeglasses-3.webp"
+                    category="" created-at=""
+                    description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae voluptates porro" />
+
+                <CardsEyeglasses title="OWNDAYS (SUN-2S C3)" href="#" duration="THB2,990.00" cover-image="/images/eyeglasses/eyeglasses-3.webp"
+                    category="" created-at=""
+                    description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae voluptates porro" />
+
+                <CardsEyeglasses title="OWNDAYS (SUN-2S C3)" href="#" duration="THB2,990.00" cover-image="/images/eyeglasses/eyeglasses-3.webp"
+                    category="" created-at=""
+                    description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae voluptates porro" />
+
+                <CardsEyeglasses title="OWNDAYS (SUN-2S C3)" href="#" duration="THB2,990.00" cover-image="/images/eyeglasses/eyeglasses-3.webp"
+                    category="" created-at="" description="Lorem ipsum dolor sit amet,  voluptates porro" />
+
+                <CardsEyeglasses title="OWNDAYS (SUN-2S C3)" href="#" duration="THB2,990.00" cover-image="/images/eyeglasses/eyeglasses-3.webp"
+                    category="" created-at=""
+                    description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae voluptates porro" />
+
+                <CardsEyeglasses title="OWNDAYS (SUN-2S C3)" href="#" duration="THB2,990.00" cover-image="/images/eyeglasses/eyeglasses-3.webp"
+                    category="" created-at=""
+                    description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae voluptates porro" />
+
+                <CardsEyeglasses title="OWNDAYS (SUN-2S C3)" href="#" duration="THB2,990.00" cover-image="/images/eyeglasses/eyeglasses-3.webp"
+                    category="" created-at=""
+                    description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae voluptates porro" />
+
+            </div>
+        </AtomsContainer>
+    </section>
+</template>
