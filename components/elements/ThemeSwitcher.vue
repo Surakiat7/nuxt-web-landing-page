@@ -8,7 +8,7 @@ function changeTheme(event: MouseEvent) {
 <template>
     <div class="relative py-2">
         <button
-            class="outline-none bg-transparent p-2.5 rounded-full text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-zinc-950"
+            class="outline-none bg-transparent p-2.5 rounded-full text-zinc-600 dark:text-zinc-300 hover:bg-zinc-100 dark:hover:bg-zinc-950"
             @click="(event) => {
                 changeTheme(event)
             }">
@@ -31,7 +31,7 @@ function changeTheme(event: MouseEvent) {
             <div v-show="isOpen"
                 class="absolute border border-box-border shadow-md shadow-box-shadow z-40 top-full right-0 transition-all ease-linear p-2 rounded-xl w-44 bg-box-bg">
                 <ul class="flex flex-col" @click="isOpen = false">
-                    <li class="flex select-none cursor-pointer items-center gap-3 px-2 py-2 rounded-md transition hover:bg-gray-100 dark:hover:bg-gray-800 text-gray-600 dark:text-gray-200"
+                    <li class="flex select-none cursor-pointer items-center gap-3 px-2 py-2 rounded-md transition hover:bg-zinc-100 dark:hover:bg-zinc-800 text-zinc-600 dark:text-zinc-200"
                         @click="$colorMode.preference = 'system'">
                         <span>
                             <ElementsIconsSystem />
@@ -41,7 +41,7 @@ function changeTheme(event: MouseEvent) {
                         </span>
                     </li>
 
-                    <li class="flex select-none cursor-pointer items-center gap-3 px-2 py-2 rounded-md transition hover:bg-gray-100 dark:hover:bg-gray-800 text-gray-600 dark:text-gray-200"
+                    <li class="flex select-none cursor-pointer items-center gap-3 px-2 py-2 rounded-md transition hover:bg-zinc-100 dark:hover:bg-zinc-800 text-zinc-600 dark:text-zinc-200"
                         @click="$colorMode.preference = 'light'">
                         <span>
                             <ElementsIconsLight />
@@ -51,7 +51,7 @@ function changeTheme(event: MouseEvent) {
                         </span>
                     </li>
 
-                    <li class="flex select-none cursor-pointer items-center gap-3 px-2 py-2 rounded-md transition hover:bg-gray-100 dark:hover:bg-gray-800 text-gray-600 dark:text-gray-200"
+                    <li class="flex select-none cursor-pointer items-center gap-3 px-2 py-2 rounded-md transition hover:bg-zinc-100 dark:hover:bg-zinc-800 text-zinc-600 dark:text-zinc-200"
                         @click="$colorMode.preference = 'dark'">
                         <span>
                             <ElementsIconsDark />

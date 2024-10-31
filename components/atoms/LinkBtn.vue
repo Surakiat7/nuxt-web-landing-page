@@ -16,7 +16,7 @@ if (variant === "primary") {
     textCl = "text-primary"
 }
 else if(variant === "secondary"){
-    spanClass = "bg-primary/5"
+    spanClass = "bg-primary/5 dark:bg-secondary/5 border-2 border-transparent"
     textCl = "text-primary"
 }
 else if(variant === "costum"){

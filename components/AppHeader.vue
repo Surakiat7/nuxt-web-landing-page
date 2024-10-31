@@ -63,7 +63,7 @@ const navLinks = [
                     transition-all duration-300 ease-linear origin-top translate-y-6 lg:translate-y-0"
                     :class="navIsOpen ? '!visible !opacity-100 !translate-y-0' : ''">
                     <ul
-                        class="text-gray-700 dark:text-gray-100 w-full flex lg:items-center gap-y-4 lg:gap-x-8 flex-col lg:flex-row">
+                        class="text-zinc-700 dark:text-zinc-100 w-full flex lg:items-center gap-y-4 lg:gap-x-8 flex-col lg:flex-row">
                         <AtomsNavLink v-for="navItem in navLinks" :href="navItem.href" :text="navItem.text" />
                     </ul>
                 </div>
@@ -83,7 +83,7 @@ const navLinks = [
                         <ElementsDropDown>
                             <template #trigger>
                                 <button
-                                    class="outline-none bg-transparent p-2.5 rounded-full text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-zinc-950">
+                                    class="outline-none bg-transparent p-2.5 rounded-full text-zinc-600 dark:text-zinc-300 hover:bg-zinc-100 dark:hover:bg-zinc-950">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                         stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
                                         <path stroke-linecap="round" stroke-linejoin="round"
@@ -94,14 +94,14 @@ const navLinks = [
                             <template #content>
                                 <ul class="flex flex-col">
                                     <li
-                                        class="flex select-none cursor-pointer items-center gap-3 px-2 py-2 rounded-md transition hover:bg-gray-100 dark:hover:bg-zinc-950 text-gray-600 dark:text-gray-200">
+                                        class="flex select-none cursor-pointer items-center gap-3 px-2 py-2 rounded-md transition hover:bg-zinc-100 dark:hover:bg-zinc-950 text-zinc-600 dark:text-zinc-200">
                                         <NuxtLink to="#">
                                             Sign in
                                         </NuxtLink>
                                     </li>
 
                                     <li
-                                        class="flex select-none cursor-pointer items-center gap-3 px-2 py-2 rounded-md transition hover:bg-gray-100 dark:hover:bg-gray-800 text-gray-600 dark:text-gray-200">
+                                        class="flex select-none cursor-pointer items-center gap-3 px-2 py-2 rounded-md transition hover:bg-zinc-100 dark:hover:bg-zinc-800 text-zinc-600 dark:text-zinc-200">
                                         <NuxtLink to="#">
                                             Shop now
                                         </NuxtLink>
@@ -114,13 +114,13 @@ const navLinks = [
                     <div class="flex lg:hidden border-l border-box-border pl-2">
                         <button @click="toggleNav" class="outline-none w-7 h-auto flex flex-col relative">
                             <span
-                                class="w-6 h-0.5 rounded-full bg-gray-500 dark:bg-gray-200 transition-all duration-300 ease-linear"
+                                class="w-6 h-0.5 rounded-full bg-zinc-500 dark:bg-zinc-200 transition-all duration-300 ease-linear"
                                 :class="navIsOpen ? 'translate-y-1.5 rotate-[40deg] scale-x-100 ' : ' scale-x-50 origin-left'"></span>
                             <span
-                                class="w-6 origin-center  mt-1 h-0.5 rounded-full bg-gray-500 dark:bg-gray-200 transition-all duration-300 ease-linear"
+                                class="w-6 origin-center  mt-1 h-0.5 rounded-full bg-zinc-500 dark:bg-zinc-200 transition-all duration-300 ease-linear"
                                 :class="navIsOpen ? 'scale-x-0 opacity-0' : ''"></span>
                             <span
-                                class="w-6 mt-1 h-0.5 rounded-full bg-gray-500 dark:bg-gray-200 transition-all duration-300 ease-linear"
+                                class="w-6 mt-1 h-0.5 rounded-full bg-zinc-500 dark:bg-zinc-200 transition-all duration-300 ease-linear"
                                 :class="navIsOpen ? '-translate-y-1.5 -rotate-[40deg] scale-x-100 ' : ' scale-x-75 origin-left'"></span>
                         </button>
                     </div>

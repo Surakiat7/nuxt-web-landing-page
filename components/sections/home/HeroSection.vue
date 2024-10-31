@@ -18,9 +18,9 @@
                 class="grid lg:grid-cols-2 gap-10 xl:gap-14 relative pt-24 lg:max-w-none max-w-2xl md:max-w-3xl mx-auto">
                 <div class="lg:py-6">
                     <div class="text-center lg:text-left">
-                        <span class="px-2 py-1 rounded-md bg-gray-100 text-primary ">Discover Your Perfect
+                        <span class="px-2 py-1 rounded-md bg-zinc-200 dark:bg-zinc-700 text-primary dark:text-secondary">Discover Your Perfect
                             Pair of Glasses with OWNDAYS Labs</span>
-                        <h1 class="text-gray-800 pt-4 dark:text-white font-bold text-4xl md:text-5xl lg:text-6xl">
+                        <h1 class="text-zinc-800 pt-4 dark:text-white font-bold text-4xl md:text-5xl lg:text-6xl">
                             Explore our exclusive<br> collection of <span
                                 class="text-transparent bg-clip-text bg-gradient-to-br from-primary to-secondary">Pair
                                 eyewear</span>
@@ -28,7 +28,7 @@
                         </h1>
                     </div>
 
-                    <p class="text-gray-600 dark:text-gray-300 pt-8 text-center lg:text-left mx-auto max-w-xl">
+                    <p class="text-zinc-600 dark:text-zinc-300 pt-8 text-center lg:text-left mx-auto max-w-xl">
                         At OWNDAYS Labs, we bring you the latest in eyewear fashion and technology. From classic frames
                         to innovative designs, find the perfect pair that suits your style and enhances your vision.
                     </p>
@@ -42,15 +42,15 @@
                         <div class="flex items-center text-center flex-col sm:flex-row gap-4 sm:gap-0">
                             <div class="flex items-center">
                                 <img src="/jp-flag.png" width="40" alt="avatar"
-                                    class="w-10 h-10 rounded-full border-2 border-gray-200 dark:border-gray-400 object-cover">
+                                    class="w-10 h-10 rounded-full border-2 border-zinc-200 dark:border-zinc-400 object-cover">
                                 <img src="/th-flag.png" width="40" alt="avatar"
-                                    class="w-10 h-10 rounded-full border-2 border-gray-200 dark:border-gray-400 object-cover -ml-2.5">
+                                    class="w-10 h-10 rounded-full border-2 border-zinc-200 dark:border-zinc-400 object-cover -ml-2.5">
                                 <span
-                                    class="w-10 h-10 rounded-full border-2 border-gray-200 dark:border-gray-400 bg-body-color flex items-center justify-center text-xs text-gray-300 object-cover -ml-2.5">
+                                    class="w-10 h-10 rounded-full border-2 border-zinc-200 dark:border-zinc-400 bg-body-color flex items-center justify-center text-xs text-zinc-300 object-cover -ml-2.5">
                                     10+
                                 </span>
                             </div>
-                            <div class="pl-2 text-gray-600 dark:text-gray-200">
+                            <div class="pl-2 text-zinc-600 dark:text-zinc-200">
                                 "OWNDAYS has offices countries worldwide."
                             </div>
                         </div>

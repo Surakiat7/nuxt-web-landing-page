@@ -23,7 +23,7 @@ module.exports = {
         primary: "#141414",
         secondary: "#fff",
         "body-color": "#141414",
-        "gray-color": "",
+        "zinc-color": "",
       },
       zIndex: {
         60: "60",

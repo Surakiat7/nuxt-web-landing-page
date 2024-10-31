@@ -11,7 +11,7 @@
                     </div>
                     <div class="relative">
                         <AtomsTitle texte="Discover What Sets OWNDAYS Eyewear Apart" />
-                        <p class="text-gray-600 dark:text-gray-300 pt-8">
+                        <p class="text-zinc-600 dark:text-zinc-300 pt-8">
                             At OWNDAYS, we believe that eyewear is more than just a tool for vision correction; it's a
                             fashion statement and a reflection of your unique personality. With high-quality materials,
                             advanced lens technology, and stylish designs, we bring you eyewear that perfectly balances
@@ -19,25 +19,25 @@
                         </p>
                         <div class="space-y-4 pt-8">
                             <div
-                                class="p-4 rounded-xl border border-box-border transition hover:bg-gray-200 dark:hover:bg-box-bg">
-                                <h3 class="text-gray-700 dark:text-gray-200 font-semibold text-xl">Wide Range of Styles
+                                class="p-4 rounded-xl border border-box-border transition hover:bg-zinc-200 dark:hover:bg-box-bg">
+                                <h3 class="text-zinc-700 dark:text-zinc-200 font-semibold text-xl">Wide Range of Styles
                                     topics</h3>
-                                <p class="text-base text-gray-600 dark:text-gray-300">From classic frames to trendy
+                                <p class="text-base text-zinc-600 dark:text-zinc-300">From classic frames to trendy
                                     designs, we offer a diverse selection to suit every personality.</p>
                             </div>
                             <div
-                                class="p-4 rounded-xl border border-box-border transition hover:bg-gray-200 dark:hover:bg-box-bg">
-                                <h3 class="text-gray-700 dark:text-gray-200 font-semibold text-xl">Premium Quality
+                                class="p-4 rounded-xl border border-box-border transition hover:bg-zinc-200 dark:hover:bg-box-bg">
+                                <h3 class="text-zinc-700 dark:text-zinc-200 font-semibold text-xl">Premium Quality
                                     Lenses
                                     topics</h3>
-                                <p class="text-base text-gray-600 dark:text-gray-300">Enjoy clarity and protection with
+                                <p class="text-base text-zinc-600 dark:text-zinc-300">Enjoy clarity and protection with
                                     our lenses, featuring anti-reflective and UV protection coatings.</p>
                             </div>
                             <div
-                                class="p-4 rounded-xl border border-box-border transition hover:bg-gray-200 dark:hover:bg-box-bg">
-                                <h3 class="text-gray-700 dark:text-gray-200 font-semibold text-xl">Fast and Efficient
+                                class="p-4 rounded-xl border border-box-border transition hover:bg-zinc-200 dark:hover:bg-box-bg">
+                                <h3 class="text-zinc-700 dark:text-zinc-200 font-semibold text-xl">Fast and Efficient
                                     Service</h3>
-                                <p class="text-base text-gray-600 dark:text-gray-300">Get your glasses assembled and
+                                <p class="text-base text-zinc-600 dark:text-zinc-300">Get your glasses assembled and
                                     ready to wear in just 20 minutes.</p>
                             </div>
                         </div>

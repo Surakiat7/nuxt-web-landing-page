@@ -1,5 +1,5 @@
 <template>
-    <footer class="pt-20 bg-gray-100 dark:bg-body border-t border-gray-200 dark:border-gray-100/20">
+    <footer class="pt-20 bg-zinc-100 dark:bg-body border-t border-zinc-200 dark:border-zinc-100/20">
         <AtomsContainer class-name="pb-10">
             <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 gap-y-10">
                 <div class="col-span-2 md:col-span-4 lg:col-span-2">
@@ -8,7 +8,7 @@
                             <img :src="logoSrc" width="40" alt="logo" class="w-fit h-min object-cover">
                         </span>
                     </NuxtLink>
-                    <p class="text-primary dark:text-gray-400 pt-6">
+                    <p class="text-primary dark:text-zinc-400 pt-6">
                         At OWNDAYS Labs, we blend cutting-edge technology with exceptional design to bring you eyewear that enhances both your style and vision. Discover innovation and quality with each pair.
                     </p>
                 </div>
@@ -18,9 +18,9 @@
                 <BlocksFooterNavBlock title="Support" :links="supportLinks" />
             </div>
         </AtomsContainer>
-        <div class="py-2 bg-gray-200 dark:bg-primary">
+        <div class="py-2 bg-zinc-200 dark:bg-primary">
             <AtomsContainer>
-                <div class="flex justify-center items-center gap-5 text-primary dark:text-gray-400">
+                <div class="flex justify-center items-center gap-5 text-primary dark:text-zinc-400">
                     <div class="">
                         &copy; {{ new Date().getFullYear() }} Allright Reserved. Designed by <NuxtLink target="_blank"
                             to="#" class="font-bold text-primary dark:text-secondary">Surakiat Tablakorn</NuxtLink>

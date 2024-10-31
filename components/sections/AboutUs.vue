@@ -18,28 +18,28 @@
                     </div>
                     <div class="relative">
                         <AtomsTitle texte="OWNDAYS Services" />
-                        <p class="text-gray-600 dark:text-gray-300 pt-8">
+                        <p class="text-zinc-600 dark:text-zinc-300 pt-8">
                             High-Quality Anti-Reflective Lenses: All our lenses come with high anti-reflective
                             properties, reducing glare and ensuring comfortable vision with no additional cost.
                         </p>
                         <div class="grid grid-cols-3 gap-4 max-w-lg pt-8">
                             <div
                                 class="text-center rounded-xl bg-box-bg shadow-lg shadow-box-shadow border border-box-border p-3">
-                                <h3 class="text-gray-800 dark:text-white font-bold text-xl sm:text-2xl lg:text-3xl">+ 12
+                                <h3 class="text-zinc-800 dark:text-white font-bold text-xl sm:text-2xl lg:text-3xl">+ 12
                                 </h3>
-                                <p class="text-sm sm:text-base text-gray-600 dark:text-gray-300">Offices Countries.</p>
+                                <p class="text-sm sm:text-base text-zinc-600 dark:text-zinc-300">Offices Countries.</p>
                             </div>
                             <div
                                 class="text-center rounded-xl bg-box-bg shadow-lg shadow-box-shadow border border-box-border p-3">
-                                <h3 class="text-gray-800 dark:text-white font-bold text-xl sm:text-2xl lg:text-3xl">+
+                                <h3 class="text-zinc-800 dark:text-white font-bold text-xl sm:text-2xl lg:text-3xl">+
                                     500</h3>
-                                <p class="text-sm sm:text-base text-gray-600 dark:text-gray-300">Stores Worldwide.</p>
+                                <p class="text-sm sm:text-base text-zinc-600 dark:text-zinc-300">Stores Worldwide.</p>
                             </div>
                             <div
                                 class="text-center rounded-xl bg-box-bg shadow-lg shadow-box-shadow border border-box-border p-3">
-                                <h3 class="text-gray-800 dark:text-white font-bold text-xl sm:text-2xl lg:text-3xl">20 Min
+                                <h3 class="text-zinc-800 dark:text-white font-bold text-xl sm:text-2xl lg:text-3xl">20 Min
                                 </h3>
-                                <p class="text-sm sm:text-base text-gray-600 dark:text-gray-300">Assembly Completed.</p>
+                                <p class="text-sm sm:text-base text-zinc-600 dark:text-zinc-300">Assembly Completed.</p>
                             </div>
                         </div>
                     </div>

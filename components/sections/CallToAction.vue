@@ -17,19 +17,19 @@
                     </span>
                 </div>
                 <div class="mx-auto text-center max-w-xl md:max-w-2xl relative">
-                    <h2 class="text-gray-800 pt-4 dark:text-white font-bold text-4xl md:text-5xl lg:text-6x">
+                    <h2 class="text-zinc-800 pt-4 dark:text-white font-bold text-4xl md:text-5xl lg:text-6x">
                         Stay Updated with the Latest <span
                             class="text-transparent bg-clip-text bg-gradient-to-br from-primary to-secondary">Eyewear</span>
                         Trends and Exclusive Promotions!
                     </h2>
-                    <p class="text-gray-600 dark:text-gray-300 pt-8 mx-auto max-w-xl">
+                    <p class="text-zinc-600 dark:text-zinc-300 pt-8 mx-auto max-w-xl">
                         Join our mailing list to receive updates on the newest eyewear collections, special offers, and
                         exclusive discounts from OWNDAYS.
                     </p>
                     <div class="mx-auto max-w-md sm:max-w-xl pt-10">
                         <form action="" class="flex items-center relative gap-x-2">
                             <input type="email" placeholder="owndays@gmail.com"
-                                class="outline-none border-2 border-transparent focus:border-primary bg-body text-gray-600 dark:text-gray-200 rounded-3xl px-6 py-3 w-full">
+                                class="outline-none border-2 border-transparent focus:border-primary bg-body text-zinc-600 dark:text-zinc-200 rounded-3xl px-6 py-3 w-full">
                             <div
                                 class="sm:inline-flex sm:min-w-max absolute sm:relative top-0.5 right-0.5 sm:top-0 sm:right-0">
                                 <button
