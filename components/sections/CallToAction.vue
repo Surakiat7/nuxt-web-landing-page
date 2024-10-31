@@ -33,9 +33,9 @@
                             <div
                                 class="sm:inline-flex sm:min-w-max absolute sm:relative top-0.5 right-0.5 sm:top-0 sm:right-0">
                                 <button
-                                    class="min-w-max p-3 sm:py-3 sm:px-6 text-white border-2 border-transparent relative group">
+                                    class="min-w-max p-3 sm:py-3 sm:px-6 text-white dark:text-primary border-2 border-transparent relative group">
                                     <span
-                                        class="absolute inset-0 rounded-full group-hover:scale-105 origin-center transition-all ease-in-out bg-primary"></span>
+                                        class="absolute inset-0 rounded-full group-hover:scale-105 origin-center transition-all ease-in-out bg-primary dark:bg-secondary"></span>
                                     <span aria-hidden="true" class="relative hidden sm:flex">
                                         Subsribe
                                     </span>

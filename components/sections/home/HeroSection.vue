@@ -2,16 +2,16 @@
     <section class="relative w-full">
         <div class="absolute top-0 inset-x-0 h-64 flex items-start">
             <div
-                class="h-24 w-2/3 bg-gradient-to-br from-primary opacity-20 blur-2xl dark:from-secondary dark:invisible dark:opacity-40">
+                class="h-24 w-2/3 bg-gradient-to-br bg-primary opacity-20 blur-2xl dark:from-secondary dark:invisible dark:opacity-40">
             </div>
             <div
-                class="h-20 w-3/5 bg-gradient-to-r from-primary opacity-40 blur-2xl dark:from-secondary dark:opacity-40">
+                class="h-20 w-3/5 bg-gradient-to-r bg-primary opacity-10 blur-2xl dark:from-secondary dark:opacity-40">
             </div>
         </div>
         <AtomsContainer class-name='realtive'>
             <div aria-hidden="true" class="absolute inset-y-0 w-44 left-0 hidden dark:flex">
                 <div
-                    class="h-full md:h-1/2 lg:h-full w-full bg-gradient-to-tr opacity-40 dark:blur-2xl dark:from-secondary dark:opacity-20">
+                    class="h-full md:h-1/2 lg:h-full w-full bg-primary opacity-10 dark:blur-2xl dark:from-secondary dark:opacity-20">
                 </div>
             </div>
             <div

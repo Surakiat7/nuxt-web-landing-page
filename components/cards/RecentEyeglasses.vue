@@ -11,7 +11,7 @@
             </h2>
             <div class="pt-2">
                 <NuxtLink :to="href"
-                    class="flex items-center text-white rounded-full p-0.5 pr-2 gap-2 text-sm border border-gray-100/20 w-max">
+                    class="flex items-center text-white rounded-full p-0.5 pr-2 gap-2 text-sm border border-zinc-100/20 w-max">
                     <span class="p-1 rounded-full bg-primary">
                         <svg xmlns="http://www.w3.org/2000/svg" fill='currentColor' viewBox="0 0 24 24" class='w-4 h-4'>
                             <path

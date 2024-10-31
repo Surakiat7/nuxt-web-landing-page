@@ -37,9 +37,9 @@
                             </div>
                             <div
                                 class="text-center rounded-xl bg-box-bg shadow-lg shadow-box-shadow border border-box-border p-3">
-                                <h3 class="text-gray-800 dark:text-white font-bold text-xl sm:text-2xl lg:text-3xl">+ 20
+                                <h3 class="text-gray-800 dark:text-white font-bold text-xl sm:text-2xl lg:text-3xl">20 Min
                                 </h3>
-                                <p class="text-sm sm:text-base text-gray-600 dark:text-gray-300">Minutes Assembly Completed.</p>
+                                <p class="text-sm sm:text-base text-gray-600 dark:text-gray-300">Assembly Completed.</p>
                             </div>
                         </div>
                     </div>

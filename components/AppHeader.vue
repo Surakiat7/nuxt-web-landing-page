@@ -83,7 +83,7 @@ const navLinks = [
                         <ElementsDropDown>
                             <template #trigger>
                                 <button
-                                    class="outline-none bg-transparent p-2.5 rounded-full text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800">
+                                    class="outline-none bg-transparent p-2.5 rounded-full text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-zinc-950">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                         stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
                                         <path stroke-linecap="round" stroke-linejoin="round"
@@ -94,16 +94,16 @@ const navLinks = [
                             <template #content>
                                 <ul class="flex flex-col">
                                     <li
-                                        class="flex select-none cursor-pointer items-center gap-3 px-2 py-2 rounded-md transition hover:bg-gray-100 dark:hover:bg-gray-800 text-gray-600 dark:text-gray-200">
+                                        class="flex select-none cursor-pointer items-center gap-3 px-2 py-2 rounded-md transition hover:bg-gray-100 dark:hover:bg-zinc-950 text-gray-600 dark:text-gray-200">
                                         <NuxtLink to="#">
-                                            Join-us
+                                            Sign in
                                         </NuxtLink>
                                     </li>
 
                                     <li
                                         class="flex select-none cursor-pointer items-center gap-3 px-2 py-2 rounded-md transition hover:bg-gray-100 dark:hover:bg-gray-800 text-gray-600 dark:text-gray-200">
                                         <NuxtLink to="#">
-                                            Signin
+                                            Shop now
                                         </NuxtLink>
                                     </li>
                                 </ul>

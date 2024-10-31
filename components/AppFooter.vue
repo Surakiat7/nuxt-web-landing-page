@@ -8,7 +8,6 @@
                             <img :src="logoSrc" width="40" alt="logo" class="w-fit h-min object-cover">
                         </span>
                     </NuxtLink>
-
                     <p class="text-primary dark:text-gray-400 pt-6">
                         At OWNDAYS Labs, we blend cutting-edge technology with exceptional design to bring you eyewear that enhances both your style and vision. Discover innovation and quality with each pair.
                     </p>
@@ -21,7 +20,7 @@
         </AtomsContainer>
         <div class="py-2 bg-gray-200 dark:bg-primary">
             <AtomsContainer>
-                <div class="flex justify-between items-center gap-5 text-primary dark:text-gray-400">
+                <div class="flex justify-center items-center gap-5 text-primary dark:text-gray-400">
                     <div class="">
                         &copy; {{ new Date().getFullYear() }} Allright Reserved. Designed by <NuxtLink target="_blank"
                             to="#" class="font-bold text-primary dark:text-secondary">Surakiat Tablakorn</NuxtLink>

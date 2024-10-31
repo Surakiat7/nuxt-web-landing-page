@@ -9,8 +9,8 @@ const { href, variant, costumSpanClass="", costumTextColor="" } = defineProps<{
 let spanClass:string = "";
 let textCl:string = ""
 if (variant === "primary") {
-    spanClass = "bg-primary border-2 border-transparent"
-    textCl = "text-white"
+    spanClass = "bg-primary dark:bg-secondary border-2 border-transparent"
+    textCl = "text-white dark:text-primary"
 }else if(variant === "primary-outlined"){
     spanClass = "border-2 border-primary"
     textCl = "text-primary"

@@ -8,7 +8,7 @@ function changeTheme(event: MouseEvent) {
 <template>
     <div class="relative py-2">
         <button
-            class="outline-none bg-transparent p-2.5 rounded-full text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800"
+            class="outline-none bg-transparent p-2.5 rounded-full text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-zinc-950"
             @click="(event) => {
                 changeTheme(event)
             }">
